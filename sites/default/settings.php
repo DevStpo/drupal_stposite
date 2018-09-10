@@ -297,7 +297,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '5IYrBqqvN6Rc7CbK8aaPe2LX5L2N9_TiNt1wPNl5Vmuh6BEG3PuOqPIPc46rQdwhevKMwzN8Mw';
+$settings['hash_salt'] = 'wxOLpPgtxso8RgkUeB3d-529j-Yt7sZQv7sCKMhUmbOI9Ewgfw0S85PWUdJhsZ2I77x5nGOQHA';
 
 /**
  * Deployment identifier.
@@ -787,8 +787,8 @@ $settings['entity_update_batch_size'] = 50;
 # }
 $databases['default']['default'] = array (
   'database' => 'drupaldb',
-  'username' => 'drupaluser',
-  'password' => 'StpoDrup!',
+  'username' => 'root',
+  'password' => 'root',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
@@ -796,4 +796,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_UC0rg045IgGittm0ndLqvZ89TJGMbaivpWBHWKvha-4oX1Oi-hDjXY8y-CgN9sii1WMkTWM1Ag/sync';
+$config_directories['sync'] = 'sites/default/files/config_qmzAmISp5FPoWLOG9tsSRcR9HjaJRCreDwVXMkvnLXEnUPgVzOs5LXOvXbH3pjYSZGeUBcAidg/sync';
